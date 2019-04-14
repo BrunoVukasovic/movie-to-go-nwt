@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Layout } from "./components";
 import ControlledCarousel from "./components/ControlledCarousel";
 import TryForFreeBtn from "./components/TryForFreeBtn";
+import ItemsGrid from "./components/ItemsGrid";
 
 // classed based component, extends Component class
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           <font color="white">The best series online</font>
         </h2>
         <TryForFreeBtn />
+        <ItemsGrid />
       </Layout>
     );
   }
