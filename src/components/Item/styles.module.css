@@ -1,3 +1,13 @@
 .Item {
+  width: 320px;
   color: white;
+}
+
+.itemHeading {
+  margin-bottom: 0;
+  font-size: 21px;
+}
+
+.itemGenres {
+  font-size: 14px;
 }

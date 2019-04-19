@@ -8,11 +8,12 @@ export default class Item extends Component {
   }
 
   render() {
-    const { heading, rating } = this.props.item;
+    const { heading, image, genres } = this.props.item;
     return (
       <div className={styles.Item}>
-        <h2>{heading}</h2>
-        <p>{rating}</p>
+        <img src={image} alt="item" width="320px" />
+        <p className={styles.itemHeading}>{heading}</p>
+        <p className={styles.itemGenres}>{genres.join(", ")}</p>
       </div>
     );
   }
