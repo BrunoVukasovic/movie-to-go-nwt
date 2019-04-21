@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import styles from "./styles.module.css";
+import Rating from "../Rating";
 
 export default class Item extends Component {
   constructor(props) {
@@ -68,7 +69,7 @@ export default class Item extends Component {
         </div>
 
         <div className={styles.ItemOnHover} style={this.state.width}>
-          <p className={styles.ItemRating}>{rating}</p>
+          <Rating rating={rating} />
           <p className={styles.ItemHeading}>{heading}</p>
           <p className={styles.ItemDescription}>{description}</p>
           <p className={styles.ItemStars}>{stars.join(", ")}</p>

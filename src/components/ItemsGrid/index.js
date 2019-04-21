@@ -25,7 +25,7 @@ export default class ItemsGrid extends Component {
           id: 2,
           heading: "Breaking bad",
           image: imageBb,
-          rating: 5,
+          rating: 4,
           genres: ["crime", "drama", "thriller"],
           year: 2008,
           country: "USA",
