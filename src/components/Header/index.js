@@ -10,7 +10,13 @@ import Container from "../Container";
 
 export default () => {
   return (
-    <Navbar bg="dark" variant="dark" expand="md" sticky="top">
+    <Navbar
+      bg="light"
+      variant="light"
+      expand="md"
+      sticky="top"
+      className={styles.Navbar}
+    >
       <Navbar.Brand href="#home">Movie To Go</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -48,7 +54,7 @@ export default () => {
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-          <Button variant="outline-warning">Search</Button>
+          <Button variant="outline-primary">Search</Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>

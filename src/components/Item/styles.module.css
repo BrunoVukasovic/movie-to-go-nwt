@@ -1,13 +1,32 @@
 .Item {
   width: 320px;
-  color: white;
+  position: relative;
 }
 
-.itemHeading {
+.ItemHeading {
   margin-bottom: 0;
   font-size: 21px;
+  font-weight: 600;
 }
 
-.itemGenres {
+.ItemGenres {
   font-size: 14px;
+  margin-top: -4px;
+}
+
+.ItemOnHover {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 296px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  overflow: hidden;
+  transition: width 0.5s;
+}
+
+.ItemYearAndCountry {
+  margin-bottom: 0;
 }

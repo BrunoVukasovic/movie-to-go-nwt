@@ -15,7 +15,7 @@ class App extends Component {
         <ControlledCarousel />
         <br />
         <h2 align="center">
-          <font color="white">The best series online</font>
+          <font>The best series online</font>
         </h2>
         <TryForFreeBtn />
         <ItemsGrid />
